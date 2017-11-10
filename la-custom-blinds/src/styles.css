@@ -1,0 +1,133 @@
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+.show {
+    display: none;
+}
+
+.hide {
+    display: block
+}
+
+.logo {
+    height: 100px;
+}
+
+
+/* Media Queries */
+
+@media(max-width: 768px) {
+    * {
+        text-align: center;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+    .logo {
+        height: 150px;
+        display: block;
+        margin: auto;
+    }
+    .logo_text {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    #installation .text_container{
+        width: 80%;
+        margin: 0px;
+    }
+
+    .installation-img {
+        width: 80% !important;
+    }
+
+    .coupon-img {
+        margin: 10px 0px !important;
+        width: 100%;
+    }
+
+    .card {
+        margin: auto !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+        display: block !important;
+        width: 80% !important;
+    }
+
+    .example-sidenav-content {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .example-sidenav {
+      margin-top: 65px;
+      padding: 25px;
+      background-color: #48A49D;
+      width: 50% !important;
+      border-right: 2px solid rgb(0, 110, 113);
+    }
+}
+
+
+@media(max-width: 480px) {
+
+    .logo {
+        height: 150px;
+        display: block;
+        margin: auto;
+    }
+
+    .logo_text {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    #installation .text_container{
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    .installation-img {
+        width: 100% !important;
+    }
+
+    .coupon-img {
+        margin: 10px 0px !important;
+        width: 100%;
+    }
+
+    .card {
+        display: block;
+        margin: auto !important;
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+
+
+    .example-sidenav-content {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .example-sidenav {
+      margin-top: 65px;
+      padding: 25px;
+      background-color: #48A49D;
+      width: 100% !important;
+      border-right: 2px solid rgb(0, 110, 113);
+    }
+
+}

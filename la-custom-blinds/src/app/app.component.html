@@ -1,0 +1,86 @@
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #F8F8F8;">
+
+  <img src="/assets/img/la-logo-1.png" alt="LA Custom Blinds Logo" style="height: 50px">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active ml-5">
+        <a class="nav-link" [routerLink]="['home']">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown ml-2">
+        <a class="nav-link dropdown-toggle" [routerLink]="['products']" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item ml-2">
+        <a class="nav-link" [routerLink]="['motorization']">Motorization</a>
+      </li>
+      <li class="nav-item ml-2">
+        <a class="nav-link" [routerLink]="['appointment']">Schedule Appointment</a>
+      </li>
+      <li class="nav-item ml-2">
+        <a class="nav-link" [routerLink]="['about']">About Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<mat-sidenav-container class="test example-container">
+    <mat-sidenav #sidenav class="example-sidenav">
+
+        <h3 class="modal-text">Schedule your <span class="white">FREE</span> shop at home appointment & get <span class="white">FREE</span> installation</h3>
+        <div class="modal-container">
+            <table>
+                <form class="modal-form" action="" method="post">
+                    <tr>
+                        <td><input type="text" name="name" placeholder="Name"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="email" placeholder="Email"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="number" placeholder="Phone Number"></td>
+                    </tr>
+                    <tr>
+                        <td><textarea type="text" name="name" placeholder="Enter a message"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit"></td>
+                    </tr>
+                </form>
+                </table>
+
+                <ul class="modal-contact-info">
+                    <li><i class="fa fa-phone"></i>  800-254-6371</li>
+                    <li><i class="fa fa-envelope"></i>  help@lacustomblinds.com</li>
+                </ul>
+
+            </div>
+    </mat-sidenav>
+
+    <div class="example-sidenav-content">
+        <button class="sidenav-btn" type="button" mat-button (click)="sidenav.open()">
+            Free
+        </button>
+    </div>
+
+</mat-sidenav-container>
+
+
+
+
+
+
+<router-outlet></router-outlet>

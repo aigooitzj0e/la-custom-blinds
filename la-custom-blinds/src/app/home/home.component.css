@@ -1,0 +1,160 @@
+
+.main_image {
+    background-image: url('/assets/img/main_home.png');
+    height: 100vh;
+    position: relative;
+    /*opacity: 0.70;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+
+.myborder{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    opacity: 0.80;
+}
+
+.green {
+    color: #48A49D;
+}
+
+
+
+/*.logo_text {
+    display: inline;
+}*/
+
+#about_us {
+    margin: 100px 0px;
+}
+
+#about_us p {
+    margin-top: 20px;
+}
+
+.pimg1 {
+    background-image: url('/assets/img/parallax_bg1.webp');
+    height: 350px;
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#services {
+    margin: 100px 0px;
+    text-align: center;
+}
+.icon_set {
+    margin-top: 50px;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+    display: inline-block;
+    width: 250px;
+}
+
+.services_text_highlight {
+    color: #48A49D;
+    font-weight: bold;
+}
+
+#installation {
+    background-color: rgb(64, 62, 64);
+    padding: 100px 0px;
+}
+
+#installation h1 {
+    text-align: center;
+    color: #48A49D;
+}
+
+#installation h3 {
+    text-align: center;
+    color: rgb(158, 158, 158);
+}
+
+#installation p {
+    color: #fff;
+}
+
+.text_container {
+    width: 45%;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.installation-img {
+    width: 45%;
+    vertical-align: top;
+}
+
+#coupons {
+    padding: 100px 0px;
+}
+
+.coupon-img {
+    margin: 0px 15px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    margin: 100px 2.1%;
+    background-color: #f8f8f8;
+}
+
+#footer {
+    background-color: rgb(64, 62, 64);
+    height: 160px;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer ul {
+    padding: 0px;
+}
+
+#footer li {
+    display: inline;
+    margin: 0px 40px;
+}
+
+#footer a {
+    font-size: 4em;
+}
+
+#footer p {
+    color: #fff;
+    margin-top: -20px;
+}
+
+.yelp {
+    color: red;
+}
+
+.houzz {
+    color: green;
+}
+
+.footer-links {
+    position: relative;
+    /*z-index: 10;*/
+}
+
+/* ====== RWD ====== */
